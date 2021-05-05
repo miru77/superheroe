@@ -1,0 +1,16 @@
+@import "./colors.scss";
+
+@import "../pages/index.scss";
+@import "../pages/search.scss";
+
+//Layouts
+@import "../layouts/BasicLayout/BasicLayout.scss";
+
+//Components
+@import "../components/Header/Header.scss";
+@import "../components/Header/TopBar/TopBar.scss";
+@import "../components/Modal/BasicModal/BasicModal.scss";
+@import "../components/ListHero/ListHero.scss";
+@import "../components/Equipo/Equipo.scss";
+@import "../components/Modal/DetalleModal/DetalleModal.scss";
+@import "../components/Equipo/ModalEquipo.scss";

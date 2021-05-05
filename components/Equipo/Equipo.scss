@@ -1,0 +1,53 @@
+.empty-equipo {
+  text-align: center;
+  padding-top: 90px;
+
+  h2 {
+    cursor: pointer;
+    font-size: 30px;
+    color: $primary;
+  }
+}
+
+.list-heroes {
+  padding: 10px;
+
+  &__heroe {
+    &:hover {
+      opacity: 0.9;
+      cursor: pointer;
+    }
+  }
+
+  .title {
+    width: max-content;
+    background-color: $background-dark-absolute;
+    color: $font-light;
+    padding: 5px 10px;
+    border-radius: 5px 5px 0 0;
+  }
+  .data {
+    background-color: $background-light;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
+    padding: 5px;
+  }
+  &__poderes {
+    td {
+      text-align: center !important;
+    }
+  }
+}
+
+.list-heroes__heroe__info {
+  margin-top: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  p {
+    font-size: 13px;
+
+    span {
+      font-weight: bold;
+    }
+  }
+}

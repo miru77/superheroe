@@ -1,0 +1,30 @@
+.list-heroes {
+  &__heroe {
+    padding: 15px;
+
+    img {
+      width: 100%;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 5px;
+      font-size: 18px;
+      color: $font-grey;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      padding: 0 8px;
+    }
+
+    &-poster {
+      position: relative;
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
