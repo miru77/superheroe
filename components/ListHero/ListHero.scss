@@ -19,6 +19,10 @@
 
     &-poster {
       position: relative;
+
+      .imagen {
+        cursor: default;
+      }
     }
 
     .actions {

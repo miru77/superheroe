@@ -60,7 +60,7 @@ function Heroe({heroe}) {
                     <h2>{heroe.name}</h2>
            
                     <div className="list-heroes__heroe-poster" >
-                                 <Image src={heroe.image.url} alt={heroe.name} />
+                                 <Image className="imagen" src={heroe.image.url} alt={heroe.name} />
                                 <div  className="actions">
                                        <Button className="submit" onClick={() => addHeroe(heroe.id)} >Agregar al equipo</Button>
                             </div>
@@ -70,5 +70,5 @@ function Heroe({heroe}) {
     )
 }
 
-
+ 
 
