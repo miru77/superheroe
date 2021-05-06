@@ -1,7 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Web del CHALLENGE REACT 
+
+Los datos válidos para el login son:
+email: challenge@alkemy.org
+password: react
+
 
 ## Getting Started
-
 First, run the development server:
 
 ```bash
