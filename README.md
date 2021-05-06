@@ -1,9 +1,9 @@
 
-## Web del CHALLENGE REACT 
+## Web para el  CHALLENGE REACT 
 
-Los datos válidos para el login son:
-email: challenge@alkemy.org
-password: react
+Los datos válidos para el login son:      
+email: challenge@alkemy.org       
+password: react       
 
 
 ## Getting Started
